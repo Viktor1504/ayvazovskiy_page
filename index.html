@@ -18,16 +18,16 @@
         <nav aria-label="header navigation" class="nav">
             <ul aria-label="header navigation list" class="nav-list">
                 <li>
-                    <a aria-label="link to home" class="nav-link" href="#">Home</a>
+                    <a aria-label="link to home" class="nav-link" href="#home-id">Home</a>
                 </li>
                 <li>
-                    <a aria-label="link to about" class="nav-link" href="#">About</a>
+                    <a aria-label="link to about" class="nav-link" href="#about-id">About</a>
                 </li>
                 <li>
-                    <a aria-label="link to history" class="nav-link" href="#">History</a>
+                    <a aria-label="link to history" class="nav-link" href="#home-id">History</a>
                 </li>
                 <li>
-                    <a aria-label="link to portfolio" class="nav-link" href="#">Portfolio</a>
+                    <a aria-label="link to portfolio" class="nav-link" href="#portfolio-id">Portfolio</a>
                 </li>
                 <li>
                     <a aria-label="link to contacts" class="nav-link" href="#">Contacts</a>
@@ -37,7 +37,7 @@
     </div>
 </header>
 <main aria-label="main">
-    <section aria-label="home section" class="home">
+    <section aria-label="home section" class="home" id="home-id">
         <div class="container">
             <h1 aria-label="title" class="home-title">Ivan Constantinovich Aivazovski</h1>
             <p aria-label="description" class="home-description">Russian marine painter of Armenian origin, collector,
@@ -45,7 +45,7 @@
             <img alt="photo of Ayvazovskiy" class="home-img" src="assets/webp/home.webp">
         </div>
     </section>
-    <section aria-label="about section" class="about">
+    <section aria-label="about section" class="about" id="about-id">
         <div class="container">
             <h2 aria-label="about title" class="about-title">About</h2>
             <h3 aria-label="about subtitle ru" class="about-subtitle-ru">
@@ -68,12 +68,29 @@
             </p>
         </div>
     </section>
-    <section aria-label="history section" class="history">
+    <section aria-label="history section" class="history" id="history-id">
         <div class="container">
             <h2 aria-label="history title" class="history-title">History</h2>
             <img alt="house of Ayvazovskiy" class="history-photo" src="assets/webp/history.webp">
             <p aria-label="history description" class="history-description">
                 Дом в котором родился Айвазовский | The house where Aivazovsky was born
+            </p>
+        </div>
+    </section>
+    <section aria-label="portfolio section" class="portfolio" id="portfolio-id">
+        <div class="container">
+            <h2 aria-label="portfolio title" class="portfolio-title">Portfolio</h2>
+            <img alt="Winter wagon train on the way" class="portfolio-picture" src="assets/webp/portfolio_1.webp">
+            <p aria-label="picture 1 description" class="portfolio-description">
+                Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
+            </p>
+            <img alt="Rainbow" class="portfolio-picture" src="assets/webp/portfolio_2.webp">
+            <p aria-label="picture 2 description" class="portfolio-description">
+                Радуга, 1873 г. | Rainbow, 1873
+            </p>
+            <img alt="Gulf of Naples in the morning" class="portfolio-picture" src="assets/webp/portfolio_3.webp">
+            <p aria-label="picture 3 description" class="portfolio-description">
+                Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893
             </p>
         </div>
     </section>
