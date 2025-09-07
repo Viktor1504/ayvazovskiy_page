@@ -24,7 +24,7 @@
                     <a aria-label="link to about" class="nav-link" href="#about-id">About</a>
                 </li>
                 <li>
-                    <a aria-label="link to history" class="nav-link" href="#home-id">History</a>
+                    <a aria-label="link to history" class="nav-link" href="#history-id">History</a>
                 </li>
                 <li>
                     <a aria-label="link to portfolio" class="nav-link" href="#portfolio-id">Portfolio</a>
@@ -36,6 +36,43 @@
         </nav>
     </div>
 </header>
+
+<div aria-label="mobile-navigation" class="mobile-navigation">
+    <label aria-label="open-close mobile navigation menu" for="toggler-id">
+        <svg aria-label="burger icon" class="mobile-navigation-burger">
+            <use href="assets/sprites.svg#burger_icon"></use>
+        </svg>
+    </label>
+
+    <input class="mobile-navigation-toggler" id="toggler-id" type="checkbox">
+
+    <nav aria-label="mob header navigation" class="mobile-navigation-menu">
+        <ul aria-label="mob header navigation list" class="mobile-navigation-list">
+            <li>
+                <a aria-label="link to home" class="mobile-navigation-link" href="#home-id">Home</a>
+            </li>
+            <li>
+                <a aria-label="link to about" class="mobile-navigation-link" href="#about-id">About</a>
+            </li>
+            <li>
+                <a aria-label="link to history" class="mobile-navigation-link" href="#history-id">History</a>
+            </li>
+            <li>
+                <a aria-label="link to portfolio" class="mobile-navigation-link" href="#portfolio-id">Portfolio</a>
+            </li>
+            <li>
+                <a aria-label="link to contacts" class="mobile-navigation-link" href="#contacts-id">Contacts</a>
+            </li>
+        </ul>
+
+        <label aria-label="open-close mobile navigation menu" class="mobile-navigation-close" for="toggler-id">
+            <svg aria-label="cross icon" class="mobile-navigation-cross">
+                <use href="assets/sprites.svg#cross_icon"></use>
+            </svg>
+        </label>
+    </nav>
+</div>
+
 <main aria-label="main">
     <section aria-label="home section" class="home" id="home-id">
         <div class="container">
@@ -81,17 +118,13 @@
         <div class="container">
             <h2 aria-label="portfolio title" class="portfolio-title">Portfolio</h2>
             <img alt="Winter wagon train on the way" class="portfolio-picture" src="assets/webp/portfolio_1.webp">
-            <p aria-label="picture 1 description" class="portfolio-description">
-                Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
-            </p>
+            <p aria-label="picture 1 description" class="portfolio-description">Зимний обоз в пути, 1857 г. | Winter
+                wagon train on the way, 1857</p>
             <img alt="Rainbow" class="portfolio-picture" src="assets/webp/portfolio_2.webp">
-            <p aria-label="picture 2 description" class="portfolio-description">
-                Радуга, 1873 г. | Rainbow, 1873
-            </p>
+            <p aria-label="picture 2 description" class="portfolio-description">Радуга, 1873 г. | Rainbow, 1873</p>
             <img alt="Gulf of Naples in the morning" class="portfolio-picture" src="assets/webp/portfolio_3.webp">
-            <p aria-label="picture 3 description" class="portfolio-description">
-                Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893
-            </p>
+            <p aria-label="picture 3 description" class="portfolio-description">Неаполитанский залив утром, 1893 г. |
+                Gulf of Naples in the morning, 1893</p>
         </div>
     </section>
 </main>
